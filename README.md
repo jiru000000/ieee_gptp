@@ -1,3 +1,7 @@
+# Running the following commands::
+  pip3 install -r requirements.txt
+  sudo python3 setup.py install
+
 # scapy-gptp - scapy layer definition and tools for GPTP (IEEE 802.1as)
 
 This python module contains the layer definition for PTPv2 (GPTP) which includes custom
@@ -39,7 +43,7 @@ which yields something like
      flags     = TIMESCALE+TWO_STEP
      correctionField= 0
      reserved2 = 0x0
-     sourcePortIdentity= 7a:1b:31:80:11:06/1
+     sourcePortIdentity= 7a:1b:31:80:11:06:01:00:0002
      sequenceId= 2081
      control   = 0x0
      logMessageInterval= -3
